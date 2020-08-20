@@ -56,7 +56,7 @@
 
 <a href="https://gyazo.com/0b8e1ebafca12736da58e2fda94e275e"><img src="https://i.gyazo.com/0b8e1ebafca12736da58e2fda94e275e.jpg" alt="Image from Gyazo" width="1440"/></a>
 
-<h1>↓
+↓
 
 <a href="https://gyazo.com/6dddcf271bb7966b0efece945e43e22f"><img src="https://i.gyazo.com/6dddcf271bb7966b0efece945e43e22f.jpg" alt="Image from Gyazo" width="1440"/></a>
 
