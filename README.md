@@ -39,9 +39,7 @@
 <a href="https://gyazo.com/da8e38a0cde67aea0958559dd03c4630"><img src="https://i.gyazo.com/da8e38a0cde67aea0958559dd03c4630.jpg" alt="Image from Gyazo" width="1440"/></a>
 
 <詳細ページ>
-- 画像をクリックすると詳細ページに行きます。
-
-<a href="https://gyazo.com/c4da71452a09724f9033710abf57d139"><img src="https://i.gyazo.com/c4da71452a09724f9033710abf57d139.gif" alt="Image from Gyazo" width="1000"/></a>
+- 投稿画像をクリックすると詳細ページに行きます。
 
 <コメント機能>
 - 投稿詳細ページの下にコメント機能があります。
@@ -56,7 +54,11 @@
 <検索機能>
 - 投稿タイトル(ゲームタイトル)で検索できます。
 
-<a href="https://gyazo.com/2b04f043bd8471134da91b7c6d967937"><img src="https://i.gyazo.com/2b04f043bd8471134da91b7c6d967937.gif" alt="Image from Gyazo" width="1000"/></a>
+<a href="https://gyazo.com/0b8e1ebafca12736da58e2fda94e275e"><img src="https://i.gyazo.com/0b8e1ebafca12736da58e2fda94e275e.jpg" alt="Image from Gyazo" width="1440"/></a>
+
+<h1>↓
+
+<a href="https://gyazo.com/6dddcf271bb7966b0efece945e43e22f"><img src="https://i.gyazo.com/6dddcf271bb7966b0efece945e43e22f.jpg" alt="Image from Gyazo" width="1440"/></a>
 
 <未ログイン>
 - ログインしていないと削除できません(削除は投稿者のみ可能)
