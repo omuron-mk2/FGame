@@ -19,6 +19,11 @@
 
 # 機能
 
+- ログインしていない場合
+<br> 投稿閲覧、コメント閲覧、検索機能
+- ログインしている場合
+<br> 上記の3機能、投稿機能、削除機能、コメント投稿
+
 <ユーザ登録機能>
 <img width="1440" alt="README2" src="https://user-images.githubusercontent.com/67043116/90721047-e6c73780-e2f2-11ea-889e-4f7cad8f3c5b.png">
 
