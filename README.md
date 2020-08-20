@@ -33,6 +33,11 @@
 
 <a href="https://gyazo.com/da8e38a0cde67aea0958559dd03c4630"><img src="https://i.gyazo.com/da8e38a0cde67aea0958559dd03c4630.jpg" alt="Image from Gyazo" width="1440"/></a>
 
+<詳細ページ>
+- 画像をクリックすると詳細ページに行きます。
+
+<a href="https://gyazo.com/c4da71452a09724f9033710abf57d139"><img src="https://i.gyazo.com/c4da71452a09724f9033710abf57d139.gif" alt="Image from Gyazo" width="1000"/></a>
+
 <コメント機能>
 - 投稿詳細ページの下にコメント機能があります。
 
