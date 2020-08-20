@@ -1,0 +1,139 @@
+.ShowWrapper{
+  margin-top: 10px;
+  .ShowMain{
+    border: 1px solid gray;
+    padding: 0 30px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    &__Image{
+      font-size: 18px;
+      font-weight: bold;
+      &--Top{
+        margin-left: 50px;
+      }
+    }
+
+    &__Image1{
+      font-size: 18px;
+      font-weight: bold;
+      color: orange;
+    }
+    &__Image2{
+      font-size: 18px;
+      font-weight: bold;
+      color: green;
+    }
+    &__Image3{
+      font-size: 18px;
+      font-weight: bold;
+      color: blue;
+    }
+
+    &__Title{
+      font-size: 28px;
+      border-top: 1px solid orange;
+      margin-bottom: 20px;
+      font-family: monospace;
+      padding: 5px 0 0 20px;
+
+    }
+    &__Text{
+      font-size: 28px;
+      border-top: 1px solid aqua;
+      padding: 5px;
+      margin-bottom: 20px;
+      font-family: monospace;
+    }
+    &__plat{
+      font-size: 28px;
+      border-top: 1px solid greenyellow;
+      margin-bottom: 20px;
+      font-family: monospace;
+      padding: 5px 0 0 20px;
+
+    }
+    .ShowBtn{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      &--edit{
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        border: 1px solid orange;
+        border-radius: 5px;
+        padding: 5px;
+        color: orange;
+        margin-bottom: 5px;
+        margin-top: 50px;
+      }
+      &--delete{
+        font-size: 32px;
+        font-weight: bold;
+        text-decoration: none;
+        border: 1px solid red;
+        border-radius: 5px;
+        padding: 10px;
+        color: white;
+        background-color: red;
+        margin: 5px 30px 5px 0;
+      }
+    }
+  }
+}
+
+.Comment{
+  margin-top: 100px;
+  font-size: 18px;
+  border-bottom: 1px solid darkred;
+  margin-bottom: 10px;
+  color: #DC143C;
+  font-weight: bold;
+  &__Form{
+    textarea {
+      width: 90%;
+      font-size: 24px;
+      border-radius: 10px;
+      margin-left: 60px;
+    }
+    input {
+      width: 90%;
+      height: 55px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: #00BFFF;
+      border-radius: 20px;
+      color: #00008B;
+      border: 2px solid #00008B;
+      margin: 25px 0 50px 60px;
+    }
+  }
+}
+
+.Comments{
+  font-size: 18px;
+  margin-top: 50px;
+  border-bottom: 1px solid #9400D3;
+  margin-bottom: 10px;
+  color: #8A2BE2;
+  font-weight: bold;
+  display: flex;
+  &__none{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px auto;
+
+  }
+  &__main {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: orange;
+  }
+  &__text{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #DCDCDC;
+    word-wrap: normal;
+  }
+}

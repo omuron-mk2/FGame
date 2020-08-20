@@ -1,0 +1,13 @@
+.NewWrapper
+  = form_for @game, class: "NewWrapper__Form"do |f|
+    %br ゲーム画像
+    = f.fields_for :images do |i|
+      = i.file_field :src
+    %br ゲーム名
+    = f.text_field :name, placeholder: "ゲームタイトル",class: "NewWrapper__Form--title"
+    %br プラットフォーム
+    = f.text_field :platform, placeholder: "例: PS4 switch PC等",class: "NewWrapper__Form--title"
+    %br ゲーム説明
+    = f.text_area :text, placeholder: "ゲームについてや背景について記述してください　　例:モンスターを倒してレベルアップをして強くなるゲームです。　　　　　　　　　　　　　　　　　　　この一枚は、最後の一撃を決める直前の瞬間です。",class: "NewWrapper__Form--text", type: "text"
+    %br
+    = f.submit "投稿",class: "NewWrapper__Form--btn"

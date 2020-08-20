@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+.Wrapper{
+  margin-top: 10px;
+}
+
+.MainImage {
+  background-image: image-url("game_image1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 360px;
+  position: relative;
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.MainImage:before{
+  content: '';
+  background: inherit;
+  filter: blur(5px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px 0 0 0;
+}
+
+.content__title {
+  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+  font-size: 32px;
+  line-height: 1.2;
+  color: orange;
+}
+
+.content__text {
+  text-shadow: 0 0 5px rgba(0,0,0,0.4);
+  font-size: 18px;
+  color:  #fff;
+  line-height: 1.77778;
+  margin: 16px 0 0 0;
+}
+
+.UpGame{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .UpGames{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(245, 244, 241);
+    margin: 0 30px;
+    overflow: scroll;
+    h2 {
+      font-size: 32px;
+      margin: 10px 0;
+    }
+  }
+  &__Boxes{
+    display: flex;
+  }
+  a {
+    text-decoration: none;
+  }
+  .UpGame__Box{
+    // width: 640px;
+    // height: 480px;
+    &--image{
+      // width: 640px;
+      // height: 480px;
+      margin-left: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+}
+
+.SelectPlat{
+  display: inline;
+}
+
+.SearchGame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 100px;
+  font-size: 24px;
+}
+

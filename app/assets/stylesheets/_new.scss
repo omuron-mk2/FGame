@@ -1,0 +1,31 @@
+.NewWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .new_game{
+    border-left: 3px solid pink;
+    border-right: 3px solid pink;
+
+    margin: 100px;
+    border-radius: 15px;
+    padding: 0 200px;
+  }
+  &__Form{
+    border: 1px solid gray;
+    border-radius: 5px;
+    &--btn{
+      margin: 20px 0 10px 0;
+      margin-left: 150px;
+      padding: 2px 30px;
+      background-color: orange;
+    }
+    &--text {
+      height: 10em;
+      width: 400px;
+    }
+    &--title{
+      width: 400px;
+    }
+  }
+}

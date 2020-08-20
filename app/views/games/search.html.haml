@@ -1,0 +1,11 @@
+.Wrapper
+  .UpGame
+    .UpGames
+      %h2 【検索結果】
+      .UpGames__Boxes
+      - if @games.empty?
+        .SearchGame
+          該当するゲームはありません
+      - else
+        - @games.each do |game|
+          = render partial: "game", locals: { game: game}

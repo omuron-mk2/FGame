@@ -1,0 +1,127 @@
+.header{ 
+  height: 100px;
+  width: 100%;
+}
+
+.header-content{
+  padding: 15px 0;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.main-header{
+  display: flex;
+  align-items: center;
+  
+}
+
+.iconmain{
+  height: 140px;
+  width: 150px;
+}
+
+.input-box__image{
+  
+  height: 20px;
+  
+}
+
+.search-box{
+  padding: 0 0 0 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.class-serch__text{
+  height: 30px;
+  width: 98%;
+}
+
+.search-submit{
+  height: 32px;
+  display: flex;
+  width: 44px;
+  align-items: center;
+  justify-content: center;
+    input{
+      display: none;  
+    }   
+}
+
+.header-nav{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+}
+
+.right-list{
+  display: flex;
+  
+  &__mypage{
+    font-size: 13px;
+    margin-right: 35px;
+    
+  }
+  &__link{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: orangered;
+    color: linen;
+  }
+  &__link1{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: green;
+    color: linen;
+  }
+  &__link2{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: skyblue;
+    color: linen;
+  }
+  &__link3{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: chocolate;
+    color: linen;
+  
+  }
+
+
+}
+
+.singup-content{
+  text-decoration: none;
+  color: black;
+}
+
+.footer{
+  background-color: black;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  &__logo{
+    color: white;
+  }
+}
+
+
+

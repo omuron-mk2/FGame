@@ -1,0 +1,39 @@
+.ShowWrapper
+  .ShowMain
+    .ShowMain__Image
+      【ゲーム背景】
+    - @image.each do |img|
+      = image_tag img.src_url, size: "1280x720", class:"ShowMain__Image--Top"
+    .ShowMain__Image1
+      【ゲームタイトル】
+    .ShowMain__Title
+      = @game.name
+    .ShowMain__Image2
+      【プラットフォーム】
+    .ShowMain__plat
+      = @game.platform
+    .ShowMain__Image3
+      【このゲーム・写真について】
+    .ShowMain__Text
+      = safe_join(@game.text.split("\n"),tag(:br))
+    - if user_signed_in? && current_user.id == @game.user_id
+      .ShowBtn
+        -# = link_to "編集する", edit_game_path(@game.id), class: "ShowBtn--edit"
+        = link_to "削除する", game_path(@game.id), method: :delete,class: "ShowBtn--delete"
+    .Comment
+      【コメント】
+    - if current_user
+      = form_with(model: [@game, @comment], local: true, class: "Comment__Form", id:"new_comment") do |com|
+        = com.text_area :text, placeholder: "誹謗中傷など他人が傷付くコメントはやめましょう", class:"CommentBox"
+        = com.submit "送信", class: "CommentSubmit"
+    .Comments
+      【コメント一覧】
+    - if @comments.empty?
+      .Comments__none
+        コメントはありません。
+    - else
+      - @comments.each do |comment|
+        .Comments__main
+          = comment.user.nickname
+        .Comments__text
+          = safe_join(comment.text.split("\n"),tag(:br))
