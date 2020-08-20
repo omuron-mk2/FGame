@@ -29,7 +29,7 @@
 
 - 入力画面で画像等の情報を入力して投稿ボタンを押すとトップページに投稿が表示されます。
 
-[![Image from Gyazo](https://i.gyazo.com/c4f8d18809ca7c67e56b40ed320308a5.gif)](https://gyazo.com/c4f8d18809ca7c67e56b40ed320308a5)
+<a href="https://gyazo.com/c4f8d18809ca7c67e56b40ed320308a5"><img src="https://i.gyazo.com/c4f8d18809ca7c67e56b40ed320308a5.gif" alt="Image from Gyazo" width="1000"/></a>
 
 <コメント機能>
 - 投稿詳細ページの下にコメント機能があります。
@@ -53,3 +53,4 @@
 <a href="https://gyazo.com/b6a38d135359b190c96e69a56b45436a"><img src="https://i.gyazo.com/b6a38d135359b190c96e69a56b45436a.jpg" alt="Image from Gyazo" width="1440"/></a>
 
 <a href="https://gyazo.com/0e890be3167754b5a292fd383537b2d8"><img src="https://i.gyazo.com/0e890be3167754b5a292fd383537b2d8.png" alt="Image from Gyazo" width="1440"/></a>
+
