@@ -29,7 +29,9 @@
 
 - 入力画面で画像等の情報を入力して投稿ボタンを押すとトップページに投稿が表示されます。
 
-<a href="https://gyazo.com/c4f8d18809ca7c67e56b40ed320308a5"><img src="https://i.gyazo.com/c4f8d18809ca7c67e56b40ed320308a5.gif" alt="Image from Gyazo" width="1000"/></a>
+<a href="https://gyazo.com/410fc74836578e8b60351b577c574ffc"><img src="https://i.gyazo.com/410fc74836578e8b60351b577c574ffc.png" alt="Image from Gyazo" width="1440"/></a>
+
+<a href="https://gyazo.com/da8e38a0cde67aea0958559dd03c4630"><img src="https://i.gyazo.com/da8e38a0cde67aea0958559dd03c4630.jpg" alt="Image from Gyazo" width="1440"/></a>
 
 <コメント機能>
 - 投稿詳細ページの下にコメント機能があります。
@@ -44,7 +46,7 @@
 <検索機能>
 - 投稿タイトル(ゲームタイトル)で検索できます。
 
-<a href="https://gyazo.com/68024b2951e68cc81243bf1ea018e6fd"><img src="https://i.gyazo.com/68024b2951e68cc81243bf1ea018e6fd.gif" alt="Image from Gyazo" width="1000"/></a>
+<a href="https://gyazo.com/2b04f043bd8471134da91b7c6d967937"><img src="https://i.gyazo.com/2b04f043bd8471134da91b7c6d967937.gif" alt="Image from Gyazo" width="1000"/></a>
 
 <未ログイン>
 - ログインしていないと削除できません(削除は投稿者のみ可能)
